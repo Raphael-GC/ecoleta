@@ -1,9 +1,8 @@
+![](https://Raphael-GC.github.io/nextlevelweek/assets/logo.svg)
 # NEXT LEVEL WEEK 1
 Curso online Next Level Week #1 - Rocketseat
 
-![](https://Raphael-GC.github.io/nextlevelweek/assets/logo.svg)
 [GITHUB PAGES](https://Raphael-GC.github.io/nextlevelweek/)
-
 
 **AULA 1**
 
