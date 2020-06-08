@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% set pageId = "page-search-result" %}
+{% set pageTitle = "Resultado da Pesquisa" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/search-result.css">
+    <link rel="stylesheet" href="/styles/responsive/resp-search-result.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "parcials/page-header.html" %}
+    <main>
+        {% if total > 0 %}
+            <h4>
+                <strong>{{ total }}
+                    pontos</strong>
+                encontrados
+            </h4>
+
+            <div class="cards">
+                {% for lugar in lugares %}
+                    <div class="card">
+                        <img src="{{ lugar.image }}" alt="{{ lugar.name }}">
+                        <h1>{{ lugar.name }}</h1>
+                        <h3>{{ lugar.items }}</h3>
+                        <p>
+                            {{ lugar.city }},
+                            {{ lugar.uf }}
+                            <br/>
+                            {{ lugar.address }}
+                            <br/>
+                            Nº {{ lugar.address2 }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <h4><strong>Nenhum</strong> local cadastrado</h4>
+        {% endif %}
+    </main>
+{% endblock content %}

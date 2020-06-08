@@ -79,7 +79,7 @@
 
 #page-home main a:hover {
     /* Estilização especial com o mouse em cima  */
-    background-color: #2fb86e;
+    background-color: var(--button-hover-color);
 }
 
 #page-home main span {

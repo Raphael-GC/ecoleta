@@ -43,7 +43,6 @@ function getCities(event) {
 
 document
     .querySelector("select[name=uf]")
-    // () => {} arrow function
     .addEventListener("change", getCities )
 
 // Itens de coleta
@@ -60,7 +59,6 @@ let selectedItems = []
 
 function handleSelectedItem(event) {
     const itemLi = event.target    
-
     // Adicionar ou remover uma classe
     // Se já tem, remove. Se não tem, adiciona.
     itemLi.classList.toggle("selected")

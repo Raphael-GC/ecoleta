@@ -1,6 +1,9 @@
 :root {
     --title-color: #322153;
     --primary-color: #34cb79;
+    --button-hover-color: #2da867;
+    --input-color: #f0f0f5;
+    --text-shadow-color: #21610B;
 }
 
 * {
@@ -11,10 +14,11 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    background: #f0f0f7;
+    background-size: 100vw 100vh;
 }
 
 body {
-    background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
 }
 
