@@ -1,8 +1,8 @@
-![](https://raphael-gc.github.io/nextlevelweek/public/assets/logo.svg)
+![](https://raphael-gc.github.io/ecoleta/public/assets/logo.svg)
 # NEXT LEVEL WEEK 1
 Curso online Next Level Week #1 - Rocketseat
 
-[GITHUB PAGES](https://raphael-gc.github.io/nextlevelweek/)
+[GITHUB PAGES](https://raphael-gc.github.io/ecoleta/)
 
 **AULA 1**
 
