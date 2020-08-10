@@ -1,7 +1,7 @@
 ![](https://raphael-gc.github.io/ecoleta/public/assets/logo.svg)
 # NEXT LEVEL WEEK 1 - Rocketseat
 
-[//]:[GITHUB PAGES](https://raphael-gc.github.io/ecoleta/src/views/index.html)
+[//]: <> ([GITHUB PAGES](https://raphael-gc.github.io/ecoleta/src/views/index.html) Preciso encontrar uma forma de exibir a parte estatica desse projeto usando o githubpage)
 
 **AULA 1**
 
